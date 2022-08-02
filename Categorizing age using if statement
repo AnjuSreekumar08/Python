@@ -1,0 +1,9 @@
+#Categorizing age using if statement
+age=int(input("Enter the age "))
+if age>=18:
+    print("You can vote")
+elif age>12:
+    print("Teenager")
+else:
+    print("Child")
+print("Thank You")
