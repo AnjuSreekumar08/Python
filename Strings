@@ -1,0 +1,9 @@
+name='Anju Sreekumar'
+print(name.upper())
+print(name.lower())
+print(name)
+print(name.find("S"))
+print(name.find("Sree"))
+print(name.replace("Anju","Anu"))
+print("Anju" in name)
+print("Sree" in name)
