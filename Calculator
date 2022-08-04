@@ -1,0 +1,17 @@
+#calculator
+first=int(input("enter the first number : "))
+second=int(input("enter the second number : "))
+print("press keys for operators like +,-,*,/,%...")
+operator=input("enter the operator : ")
+if operator=="+":
+    print(first+second)
+elif operator=="-":
+    print(first-second)
+elif operator=="*":
+    print(first*second)
+elif operator=="/":
+    print(first/second)
+elif operator=="%":
+    print(first%second)
+else:
+    print("Invalid operator")
