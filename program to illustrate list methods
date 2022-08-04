@@ -1,0 +1,11 @@
+marks=["Hindi",99,"English",98]
+marks.append("Maths")
+marks.append(98)
+print(marks)
+marks.insert(0,"Social")
+marks.insert(1,97)
+print(marks)
+print("Social" in marks)
+print(len(marks)/2)
+marks.clear()
+print(marks)
